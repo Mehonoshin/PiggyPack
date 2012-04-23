@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 name='9bEZg'
 `curl http://i.imgur.com/#{name}.png | convert - -compress none #{name}.ppm`
 ppm = File.open("#{name}.ppm")
